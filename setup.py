@@ -1,11 +1,12 @@
 from setuptools import setup
 
 setup(
-    name='appengine-pipeline',
+    name='pipeline',
     version='0.1',
     description='The Google App Engine Pipeline API',
     url='http://code.google.com/p/appengine-pipeline',
-    packages=['appengine-pipeline'],
-	package_dir={'appengine-pipeline': 'src/pipeline'},
-    package_data={'appengine-pipeline': ['simplejson/*.*','ui/*.*']},
+    packages=['pipeline'],
+	package_dir={'pipeline': 'src/pipeline'},
+    package_data={'pipeline': ['ui/*.*']},
+    requires = ['simplejson']
 )

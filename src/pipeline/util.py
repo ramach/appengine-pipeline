@@ -27,7 +27,7 @@ import datetime
 import inspect
 
 # Relative imports
-import simplejson
+import json as simplejson
 
 
 def for_name(fq_name, recursive=False):

@@ -31,7 +31,7 @@ import urlparse
 # Fix up paths for running tests.
 sys.path.insert(0, '../src/')
 
-from pipeline import simplejson
+import json as simplejson
 
 from pipeline import common
 from pipeline import pipeline

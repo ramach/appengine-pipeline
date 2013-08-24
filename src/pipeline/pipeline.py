@@ -48,7 +48,7 @@ from google.appengine.ext import webapp
 
 # Relative imports
 import models
-import simplejson
+import json as simplejson
 import status_ui
 import util as mr_util
 

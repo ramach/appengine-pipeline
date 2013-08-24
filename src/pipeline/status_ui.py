@@ -24,7 +24,7 @@ from google.appengine.api import users
 from google.appengine.ext import webapp
 
 # Relative imports
-import simplejson
+import json as simplejson
 import util
 
 

@@ -20,7 +20,7 @@ from google.appengine.ext import db
 from google.appengine.ext import blobstore
 
 # Relative imports
-import simplejson
+import json as simplejson
 import util
 
 

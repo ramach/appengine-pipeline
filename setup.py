@@ -7,6 +7,5 @@ setup(
     url='http://code.google.com/p/appengine-pipeline',
     packages=['pipeline'],
 	package_dir={'pipeline': 'src/pipeline'},
-    package_data={'pipeline': ['ui/*.*']},
-    requires = ['simplejson']
+    package_data={'pipeline': ['ui/*.*', 'ui/images/*.*']}
 )
